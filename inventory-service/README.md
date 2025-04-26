@@ -30,7 +30,7 @@ mvn clean install
 java -jar target/inventory-service-0.0.1-SNAPSHOT.jar
 ```
 ### 4. Access the Application
-- Open your web browser and navigate to `http://localhost:8080`.
+- Open your web browser and navigate to `http://localhost:8082`.
 - You can use tools like **Postman** or **cURL** to interact with the REST APIs.
 - The default port is `8082`, but you can change it in the `application.properties` file.
 - The application will automatically create the database schema if it does not exist.
